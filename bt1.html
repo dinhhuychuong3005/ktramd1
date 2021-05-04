@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>phương trình bậc nhất</title>
+</head>
+<body>
+<script>
+    function GiaiPT(a,b){
+        if (a == 0 && b == 0){
+            alert('phương trình có vô số nghiệm')
+        }
+        if (a == 0 && b != 0){
+            alert('phương trình vô nghiệm')
+        }
+        else if (a != 0){
+            alert('phương trình có nghiệm duy nhất là : ' + (-b/a))
+        }
+    }
+    let a = 5;
+    let b = 8;
+    GiaiPT(5,8);
+</script>
+</body>
+</html>
